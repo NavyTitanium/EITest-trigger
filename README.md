@@ -1,5 +1,9 @@
 # EITest-trigger
-Trigger content injection on demand from the EITest C2
+Trigger content injection on demand from the EITest C2. 
+
+This PHP script is based on the original malicious script deobfuscated and highly modified. It will fake a client browsing a website and ask for content injection to the EITest malware C2.
+
+Can be used to track malicious campaigns with the bash script provided.
 ## Usage
 ```
 [root@localhost]# php eitest.php "User Agent string"
