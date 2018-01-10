@@ -228,7 +228,7 @@ function day212()
         echo "injected:\n" . $a1[1] . "\n";
     } else {
         $o1 = "";
-        echo "no content injected";
+        echo "no content injected\n";
     }
 
 
