@@ -1,4 +1,6 @@
 # EITest-trigger
+*EITest is dead since 2018-03-15. The domain name used in the DGA algorithm (stat-dns.com) has been sinkholed.*
+
 Trigger content injection on demand from the EITest C2. 
 
 This PHP script is based on the original malicious script, but deobfuscated and highly modified. It will fake a client browsing a website and ask for content injection to the EITest malware C2.
