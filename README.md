@@ -1,5 +1,5 @@
 # EITest-trigger
-**EITest is dead since 2018-03-15. The domain name used in it's DGA algorithm (stat-dns.com) has been sinkholed.**
+**The domain stat-dns.com used in EITest's DGA algorithm has been sinkholed. As a result, the EITest campaign has now been shutdown since 2018-03-15.**
 
 Trigger content injection on demand from the EITest C2. 
 
