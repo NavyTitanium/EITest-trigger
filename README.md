@@ -1,7 +1,7 @@
 # EITest-trigger
 **The domain stat-dns.com used in EITest's DGA algorithm [has been sinkholed](https://www.proofpoint.com/us/threat-insight/post/eitest-sinkholing-oldest-infection-chain). As a result, the EITest campaign has now been shutdown since 2018-03-15.** 
 
-Trigger content injection on demand from the EITest C2. 
+<strike>Trigger content injection on demand from the EITest C2.</strike>
 
 This PHP script is based on the original malicious script, but deobfuscated and highly modified. It will fake a client browsing a website and ask for content injection to the EITest malware C2.
 
