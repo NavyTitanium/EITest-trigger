@@ -44,7 +44,7 @@ function insert_hash($first,$last,$sha256,$md5,$from_url,$proxy,$size,$mysqli,$n
         exec($upload);
 
         // We need to wait for VT to process the file
-        echo "Let sleep before commenting...." . PHP_EOL;
+        echo "Let's sleep before commenting...." . PHP_EOL;
         sleep(15);
 
         // Comment on the post
