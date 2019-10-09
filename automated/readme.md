@@ -28,6 +28,9 @@ More than 285 new unique malicious payloads were uploaded to VT, sometimes just 
 | vt-reply.php | Monitor binaries detection ratio on VT and update the BD |
 | vt.php | Publish binaries to VT |
 | update-lists.sh | Generate [the list of IOCs](https://github.com/NavyTitanium/EITest-tools-scripts-IOCs/tree/master/IOCs) and publish them to Github |
+| chrome-track2.sh | Trigger content injection for a Chrome browser and call update.php with the results |
+| ie-track2.sh | Trigger content injection for the IE browser and call update.php with the results |
+| update.php | Update the new malicious domains and URLs to the database |
 
 ## Some dependencies
 ```
