@@ -13,7 +13,6 @@ More than 285 new unique malicious payloads were uploaded to VT, sometimes just 
 */30 * * * * /var/www/html/prod/update-lists.sh > /dev/null
 */45 * * * * /var/www/html/payload/trigger-virus.sh > /dev/null
 0 */1 * * * /var/www/html/payload/payload2/trigger-virus.sh > /dev/null
-*/30 * * * * /usr/local/bin/python3.6 /var/www/html/prod/update_feed.py > /dev/null
 ```
 ## Files
 
