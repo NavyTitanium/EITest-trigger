@@ -10,3 +10,16 @@ More than 285 new unique malicious payloads were uploaded to VT, sometimes just 
 ```
 */30 * * * * curlprox.php
 ```
+## Files
+
+| File name     | Description           |
+| ------------- | -------------         |
+| comment.php   | Given a file hash and a message, will post on VT the comment |
+| curlprox.php  | Main logic for fetching the payloads |
+| eitest-test.php | Similar to eitest.php. Trigger content injection on demand from the EITest C2 for a given IP |
+| hash.php | Verify the payloads, hash them and save the results |
+| parseprox.php | Feed the DB with new proxies from text files |
+| schema-eitest.sql | Database schema |
+| validprox.php | Perform validation on the proxies in the DB |
+| vt-reply.php | Monitor binaries detection ratio on VT and update the BD |
+| vt.php | Publish binaries to VT |
