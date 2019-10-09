@@ -1,7 +1,7 @@
 <?php
 
 if ($argc != 4) {
-	exit("Usage: program 'The User-Agent to use' \n ");
+	exit("Usage: program 'timestamp url type' \n ");
 } else {
 	$GLOBALS["time"] = $argv[1];
 	$GLOBALS["url"] = $argv[2];
