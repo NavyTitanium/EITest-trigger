@@ -11,7 +11,7 @@ More than 285 new unique malicious payloads were uploaded to VT, sometimes just 
 */26 * * * * /var/www/html/ie-track2.sh > /dev/null
 */27 * * * * /var/www/html/chrome-track2.sh > /dev/null
 */30 * * * * /var/www/html/prod/update-lists.sh > /dev/null
-*/45 * * * * /var/www/html/payload/trigger-virus.sh > /dev/null
+*/45 * * * * php /var/www/html/payload/curlprox.php > /dev/null
 ```
 ## Files
 
