@@ -28,7 +28,7 @@ More than 285 new unique malicious payloads were uploaded to VT, sometimes just 
 | validprox.php | Perform validation on the proxies in the DB |
 | vt-reply.php | Monitor binaries detection ratio on VT and update the BD |
 | vt.php | Publish binaries to VT |
-| update-lists.sh | Generate the list of IOCs and publish them to Github |
+| update-lists.sh | Generate [the list of IOCs](https://github.com/NavyTitanium/EITest-tools-scripts-IOCs/tree/master/IOCs) and publish them to Github |
 
 ## Some dependencies
 ```
