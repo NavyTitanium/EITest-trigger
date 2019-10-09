@@ -5,7 +5,7 @@
 
 This PHP script is based on the original malicious script, but deobfuscated and highly modified. It will fake a client browsing a website and ask for content injection to the EITest malware C2.
 
-Can be used to track malicious campaigns with the bash script provided. See [the latest version] here(https://github.com/NavyTitanium/EITest-trigger/tree/master/automated)
+Can be used to track malicious campaigns with the bash script provided. See [the latest version here] (https://github.com/NavyTitanium/EITest-trigger/tree/master/automated)
 
 ## Usage
 ```
