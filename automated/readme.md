@@ -5,5 +5,5 @@ Was used to fetch the payloads automatically and post them on [VirusTotal](https
 
 ## Example Usage, running the script every 30 mins
 ```
-*/30 * * * * /full/path/curlprox.php
+*/30 * * * * curlprox.php
 ```
