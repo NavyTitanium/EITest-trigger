@@ -1,5 +1,5 @@
 # EITest-trigger, the fully automated version.
-Bypass the added security implemented on the C2 by using different proxies to fetch the payloads. Was used to upload the malicious binaries automatically on [VirusTotal](https://www.virustotal.com/gui/user/V1rgul3/)
+Bypass the added security implemented on the C2 by using different proxies to fetch the payloads. Was used to upload the malicious binaries automatically on [VirusTotal](https://www.virustotal.com/gui/user/V1rgul3/) from 2018-02-02 until the sinkhole operation, on 2018-03-16.
 
 EITest added an extra layer of validation by making sure that the source IP address downloading the final binary was indeed an IP address that had recently been triggering a content injection. The PHP script ***curlprox.php*** was fed by a database containing hundreds of open, free proxies. It uses them to query the backend C2 and ask for content injection. If successful, that IP is used to perform the final download using ***wget -e use_proxy=yes -e http_proxy=$IP_of_the_proxy***, thus bypassing the extra validation steps put in place. 
 
