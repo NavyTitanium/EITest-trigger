@@ -27,4 +27,5 @@ More than 285 new unique malicious payloads were uploaded to VT, sometimes just 
 ## Some dependencies
 ```
 sudo apt-get install php-curl
+sudo apt-get install php-mysqlnd
 ```
