@@ -23,3 +23,8 @@ More than 285 new unique malicious payloads were uploaded to VT, sometimes just 
 | validprox.php | Perform validation on the proxies in the DB |
 | vt-reply.php | Monitor binaries detection ratio on VT and update the BD |
 | vt.php | Publish binaries to VT |
+
+## Some dependencies
+```
+sudo apt-get install php-curl
+```
