@@ -6,9 +6,14 @@ EITest added an extra layer of validation by making sure that the source IP addr
 More than 285 new unique malicious payloads were uploaded to VT, sometimes just an hour after their compilation timestamp.
 
 
-## Running the script every 30 mins
+## Cron jobs
 ```
-*/30 * * * * curlprox.php
+*/26 * * * * /var/www/html/ie-track2.sh > /dev/null
+*/27 * * * * /var/www/html/chrome-track2.sh > /dev/null
+*/30 * * * * /var/www/html/prod/update-lists.sh > /dev/null
+*/45 * * * * /var/www/html/payload/trigger-virus.sh > /dev/null
+0 */1 * * * /var/www/html/payload/payload2/trigger-virus.sh > /dev/null
+*/30 * * * * /usr/local/bin/python3.6 /var/www/html/prod/update_feed.py > /dev/null
 ```
 ## Files
 
